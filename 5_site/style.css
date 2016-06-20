@@ -161,7 +161,7 @@ a {
   left: 50%;
   margin-left: -45%;
   z-index: 1000;
-  /*box-shadow: 10px 10px 10px rgba(250,250,250, .1);*/
+  box-shadow: 0 0 5px 10px rgba(0,0,0, .02);
 }
 
 /* ABOUT
@@ -282,6 +282,6 @@ a {
 
 .quick-links p {
   margin-bottom: 30px;
-  color: #7d868d;
+  color: #7d868d  ;
   font-size: 12px;
 }
