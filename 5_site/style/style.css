@@ -26,7 +26,7 @@ coaches  header bg: #f4f5f7
   padding: 0;
   outline: 0;
   border: 0;
-  margin: 0px;
+  margin: 0;
   font-size: 100%;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
@@ -43,7 +43,7 @@ body {
 
 ol,
 ul {
-  list-style: none;
+  /*list-style: none;*/
 }
 
 blockquote,
@@ -112,7 +112,7 @@ a {
 }
 
 .hero-text {
-  font-size: 15`px;
+  font-size: 15px;
   line-height: 30px;
   color: #7d868d;
 }
@@ -379,6 +379,7 @@ a {
 
 .coach-photo-section {
   padding: 60px 55px 47px 55px;
+  background: #fbfbfb;
 }
 
 .coach-photo {
@@ -400,4 +401,34 @@ a {
 .coach-photo p {
   text-align: center;
   margin-top: 30px;
+  color:  #7d868d;
+}
+
+
+/* SWIM TEAM CALENDAR
+--------------------------- */
+
+.swim-team-calendar {
+  margin-top: 120px;
+  height: 400px;
+  background: #fbfbfb;
+  border: 1px solid #cfd6dc;
+}
+
+/* SWIM TEAM PRACTICE SCHEDULE
+--------------------------- */
+
+.practice-schedule {
+  padding-top: 120px;
+}
+
+.practice-schedule h3 {
+  margin: 25px 0 35px;
+}
+
+.bullet-list .bl-item {
+  display: list-item;
+  color: #34567a;
+  list-style-position: inside;
+  margin-left: 5px;
 }
