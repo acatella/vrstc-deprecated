@@ -5,6 +5,13 @@
 text:
 dark blue heading: #34567a
 gray body text:  #7d868d
+link blue: #608abc
+
+border:
+gray border: #cfd6dc
+
+backgrounds:
+coaches  header bg: #f4f5f7
 */
 
 
@@ -67,12 +74,25 @@ button::-moz-focus-inner {
   position: relative;
 }
 
+h1 {
+  font-size: 40px;
+  color: #fff;
+}
+
 h2 {
-  font-size: 30px;
+  font-size: 25px;
+  line-height: normal;
+  margin-bottom: 35px;
+  color: #34567a;
+}
+
+h3 {
+  font-size: 22px;
+  color: #34567a;
 }
 
 a {
-  color: #5c8dbd;
+  color: #608abc;
 }
 .drop-cap {
   float: left;
@@ -86,10 +106,13 @@ a {
 .wave-icon {
   margin-bottom: 35px;
   display: block;
+  width: 50px;
+  height: 5px;
+  background: #34567a;
 }
 
 .hero-text {
-  font-size: 20px;
+  font-size: 15`px;
   line-height: 30px;
   color: #7d868d;
 }
@@ -109,6 +132,34 @@ a {
   color: #fff;
 }
 
+.sub-page-splash {
+  height: 315px;
+  padding-top: 137.5px;
+  text-align: center;
+}
+
+.sub-nav {
+  background: #fbfbfb;
+  border-bottom: 1px solid #cfd6dc;
+  padding: 16px 0;
+  text-align: center;
+}
+
+.sub-nav-item {
+  border-right: 1px solid #cfd6dc;
+  padding: 8px 42px 8px 38px;
+  font-size: 13.5px;
+  display: inline-block;
+}
+
+.sub-nav-item:last-child {
+  border-right: none;
+}
+
+.content-container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
 /* HOME PAGE
 -------------------------------------------------------------------------------- */
 
@@ -128,7 +179,6 @@ a {
 }
 
 .splash-title {
-  font-size: 40px;
   margin: 0 0 35px;
 }
 
@@ -193,13 +243,13 @@ a {
 }
 
 .ch-title-container {
-  color: #fff;
   height: 40px;
 }
 
 .ch-title {
   display: inline-block;
   line-height: 40px;
+  color: #fff;
 }
 
 .pc-button-title,
@@ -214,6 +264,7 @@ a {
   text-align: right;
   line-height: 15px;
   padding-top: 8px;
+  color: #fff;
 }
 
 .ch-content {
@@ -284,4 +335,69 @@ a {
   margin-bottom: 24px;
   color: #7d868d  ;
   font-size: 12px;
+}
+
+/* SWIM TEAM PAGE
+-------------------------------------------------------------------------------- */
+
+
+/* SWIM TEAM SPLASH
+--------------------------- */
+
+.swim-team-splash {
+  background: #5381ac;
+}
+
+/* SWIM TEAM ABOUT
+--------------------------- */
+
+.swim-team-about {
+  padding-top: 120px;
+}
+
+.swim-team-info {
+  width: 44%;
+  display: inline-block;
+  float: left;
+  margin-right: 8.5%;
+}
+
+.coach-photo-container {
+  width: 525px;
+  display: inline-block;
+  border: 1px solid #cfd6dc;
+  float: right;
+}
+
+.coach-photo-container h3 {
+  display: block;
+  text-align: center;
+  background: #f4f5f7;
+  padding: 30px 0;
+  border-bottom: 1px solid #cfd6dc;
+}
+
+.coach-photo-section {
+  padding: 60px 55px 47px 55px;
+}
+
+.coach-photo {
+  display: inline-block;
+  margin-right: 45px;
+}
+
+.coach-photo:last-child {
+  margin-right:0;
+}
+
+.coach-photo-fpo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: #f4f5f7;
+}
+
+.coach-photo p {
+  text-align: center;
+  margin-top: 30px;
 }
