@@ -74,6 +74,10 @@ button::-moz-focus-inner {
   position: relative;
 }
 
+.clearfix {
+  clear: both;
+}
+
 h1 {
   font-size: 40px;
   color: #fff;
@@ -419,6 +423,8 @@ a {
 --------------------------- */
 
 .practice-schedule {
+  width: 44%;
+  float: left;
   padding-top: 120px;
 }
 
@@ -426,9 +432,24 @@ a {
   margin: 25px 0 35px;
 }
 
+.bullet-list {
+  margin: 20px 0;
+}
+
 .bullet-list .bl-item {
   display: list-item;
   color: #34567a;
   list-style-position: inside;
-  margin-left: 5px;
+  margin-left: 8px;
+}
+
+/* SWIM TEAM FACEBOOK EMBED
+--------------------------- */
+
+.facebook-embed {
+  width: 500px;
+  height: 600px;
+  float: right;
+  background: #fbfbfb;
+  margin-top: 120px;
 }
