@@ -425,7 +425,7 @@ a {
 .practice-schedule {
   width: 44%;
   float: left;
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .practice-schedule h3 {
@@ -452,4 +452,47 @@ a {
   float: right;
   background: #fbfbfb;
   margin-top: 120px;
+}
+
+/* SWIM TEAM FORMS AND RECORDS
+--------------------------- */
+
+.forms-records {
+  padding: 120px 0;
+  background: #f4f5f7;
+}
+
+.forms-records h3 {
+  margin-bottom: 35px;
+}
+
+.swim-team-records {
+  float: left;
+
+}
+
+.swim-team-records,
+.swim-team-forms {
+  border-left: 1px solid #cfd6dc;
+  padding: 18px 0 18px 40px;
+  width: 50%;
+}
+
+.st-button {
+  display: inline-block;
+  background: #5e8cbd;
+  color: #fff;
+  padding: 18px 28px;
+  width: auto;
+  margin-bottom: 15px;
+}
+
+.st-button:last-child {
+  margin-bottom: 0;
+}
+
+.st-button:hover {
+  background: #fff;
+  border: 1px solid #5e8cbd;
+  color: #5e8cbd;
 }
