@@ -137,6 +137,7 @@ a {
 }
 
 .sub-page-splash {
+  background: #5381ac; /* placeholder until we add images */
   height: 315px;
   padding-top: 137.5px;
   text-align: center;
@@ -349,9 +350,7 @@ a {
 /* SWIM TEAM SPLASH
 --------------------------- */
 
-.swim-team-splash {
-  background: #5381ac;
-}
+
 
 /* SWIM TEAM ABOUT
 --------------------------- */
