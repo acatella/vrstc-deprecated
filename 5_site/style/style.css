@@ -1,6 +1,9 @@
 /* STYLSHEET FOR VRSTC SITE by Afi C. Clark */
 
+
 /* KEY
+
+TODO: add ID's to sections and link sub nav to respective secions
 
 text:
 dark blue heading: #34567a
@@ -642,4 +645,14 @@ tr:nth-child(odd) {
 
 .private-lessons p {
   width: 58%;
+}
+
+/* STAFF PAGE
+-------------------------------------------------------------------------------- */
+
+.staff-photo-fpo {
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+  background: #f4f5f7;
 }
