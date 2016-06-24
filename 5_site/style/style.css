@@ -4,14 +4,15 @@
 
 text:
 dark blue heading: #34567a
-gray body text:  #7d868d
+gray body text:  #76797e
 link blue: #608abc
 
 border:
 gray border: #cfd6dc
 
 backgrounds:
-coaches  header bg: #f4f5f7
+dark gray bg: #f4f5f7
+light gray bg: #fbfbfb
 */
 
 
@@ -118,7 +119,7 @@ a {
 .hero-text {
   font-size: 15px;
   line-height: 30px;
-  color: #7d868d;
+  color: #76797e;
 }
 
 .button  {
@@ -165,6 +166,41 @@ a {
   max-width: 1110px;
   margin: 0 auto;
 }
+
+/* TABLE STYLE
+--------------------------- */
+
+table {
+  border-collapse: collapse;
+  color: #76797e;
+}
+
+table
+{
+  border: 1px solid #cfd6dc;
+}
+
+tr {
+  border-top:  1px solid #cfd6dc;
+  border-bottom:  1px solid #cfd6dc;
+}
+
+td {
+  padding: 25px 0 25px 32px;
+}
+
+th {
+  padding: 30px 0;
+  text-align: center;
+  background: #f4f5f7;
+  color: #34567a;
+  font-size: 22px;
+}
+
+tr:nth-child(odd) {
+  background: #fbfbfb;
+}
+
 /* HOME PAGE
 -------------------------------------------------------------------------------- */
 
@@ -228,7 +264,7 @@ a {
   background: #fff;
   padding: 80px 70px;
   height: 100%;
-  color: #7d868d;
+  color: #76797e;
 }
 
 .about h2 {
@@ -339,7 +375,7 @@ a {
 
 .quick-links p {
   margin-bottom: 24px;
-  color: #7d868d  ;
+  color: #76797e;
   font-size: 12px;
 }
 
@@ -405,7 +441,7 @@ a {
 .coach-photo p {
   text-align: center;
   margin-top: 30px;
-  color:  #7d868d;
+  color:  #76797e;
 }
 
 
@@ -468,7 +504,6 @@ a {
 
 .swim-team-records {
   float: left;
-
 }
 
 .swim-team-records,
@@ -495,4 +530,76 @@ a {
   background: #fff;
   border: 1px solid #5e8cbd;
   color: #5e8cbd;
+}
+
+/* SWIM LESSONS PAGE
+-------------------------------------------------------------------------------- */
+
+/* SWIM LESSONS ABOUT
+--------------------------- */
+
+.swim-lessons-about {
+  padding: 120px 0;
+}
+
+.swim-lessons-info {
+  width: 41%;
+  float: left;
+}
+
+.swim-lessons-info p {
+  margin-bottom: 45px;
+}
+
+.times-list,
+.pricing-list {
+  width: 49%;
+  float: left;
+}
+
+.times-list {
+  margin-right: 1%;
+}
+
+.times-list ul,
+.pricing-list ul {
+  margin-left: 10px;
+}
+
+.lesson-sessions {
+  width: 47%;
+  float: right;
+}
+
+/* SWIM LESSONS REGISTRATION
+--------------------------- */
+
+.registration {
+  background: #f4f5f7;
+  padding: 120px 0;
+}
+
+.registration-deadlines {
+  width: 100%;
+}
+
+.registration-deadlines tr:nth-child(odd),
+.registration-deadlines th {
+  background: #fbfbfb;
+}
+
+.registration-deadlines tr:nth-child(even) {
+  background: #fff;
+}
+
+.registration-deadlines th {
+  font-size: 16px;
+}
+
+.registration .bullet-list {
+  margin-bottom: 65px;
+}
+
+.registration h3 {
+  margin-bottom: 30px;
 }
