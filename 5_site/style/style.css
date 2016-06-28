@@ -4,7 +4,8 @@
 /* KEY
 
 TODO: add ID's to sections and link sub nav to respective secions
-
+TODO: fix line height issues w/ new fonts
+TODO: change dark gray background to consistent #e5e8ed
 text:
 dark blue heading: #34567a
 gray body text:  #76797e
@@ -14,14 +15,31 @@ border:
 gray border: #cfd6dc
 
 backgrounds:
-dark gray bg: #f4f5f7
-staff page dark gray: #e5e8ed
+OLD dark gray bg: #f4f5f7
+dark gray bg: #e5e8ed
 light gray bg: #fbfbfb
 */
 
 
 /* GENERAL STYLE / RESET
 -------------------------------------------------------------------------------- */
+
+/* FONT
+--------------------------- */
+
+@font-face {
+  font-family: 'Edmondsans';
+  font-style: normal;
+  font-weight: normal;
+  src:url('../../6_fonts/edmondsans_personal_license/Edmondsans-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Edmondsans';
+  font-style: normal;
+  font-weight: bold;
+  src:url('../../6_fonts/edmondsans_personal_license/Edmondsans-Bold.otf') format('opentype');
+}
 
 /* RESET
 --------------------------- */
@@ -40,8 +58,18 @@ light gray bg: #fbfbfb
   background: transparent;
   box-sizing: border-box;
   overflow: auto;
+  font-family: 'Varela Round', sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Edmondsans', sans-serif;
+  font-weight: bold;
+}
 body {
   line-height: 1;
 }
@@ -121,6 +149,7 @@ a {
 }
 
 .hero-text {
+  font-weight: normal;
   font-size: 15px;
   line-height: 30px;
   color: #76797e;
@@ -687,4 +716,94 @@ tr:nth-child(odd) {
   height: 155px;
   border-radius: 50%;
   background: #f4f5f7;
+}
+
+/* CLUB RULES PAGE
+-------------------------------------------------------------------------------- */
+
+.rule-block {
+  padding: 120px 0 0;
+  height: 800px;
+}
+
+.rule-block .content-container {
+  position: relative; /* to anchor view all button */
+  height: 100%;
+}
+
+/* ORDERED LIST STYLE
+--------------------------- */
+
+.order-list {
+  margin: 20px 0;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.order-list .ol-item {
+  display: list-item;
+  color: #34567a;
+  list-style-position: inside;
+  padding-left: 8px;
+  margin-bottom: 16px;
+  position: relative; /* to anchor bg circle for ol items */
+  font-weight: bold;
+  counter-increment: customlistcounter; /* code to remove '.' */
+}
+
+.ol-item:before { /* code to remove '.' from ol */
+  content: counter(customlistcounter) " ";
+  font-weight: bold;
+  float: left;
+  margin: 7px 33px 0 2px;
+}
+
+.ol-item:nth-child(n+10):before { /* centers double digit ol numbers */
+  margin-left: -3px;
+}
+
+.order-list {
+  counter-reset: customlistcounter;
+}
+
+.ol-item-bg {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: #e5e8ed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/* VIEW ALL BUTTON
+--------------------------- */
+
+.view-all {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  background: #fff;
+    background: -o-linear-gradient(right, rgba(255,0,0,0), rgba(255,0,0,1));
+  background: -webkit-linear-gradient(left, rgba(255,0,0,0), rgba(255,0,0,1));
+  background: -moz-linear-gradient(to top, rgba(255,255,255,1),rgba(255,255,0,.4));
+  background: linear-gradient(to top, rgba(255,255,255,1),rgba(255,255,0,0));
+}
+
+.view-all-button {
+  margin: 25px auto;
+  padding: 25px 0;
+  width: 500px;
+  background: #e5e8ed;
+  color: #34567a;
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Edmondsans', sans-serif;
+  font-size: 12px;
 }
