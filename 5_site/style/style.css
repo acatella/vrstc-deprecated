@@ -944,3 +944,10 @@ tr:nth-child(odd) {
 .member-about .view-all{
   position: relative;
 }
+
+/* MEMBERSHIP PAGE
+-------------------------------------------------------------------------------- */
+
+#tennis-schedule {
+  width: 100%;
+}
