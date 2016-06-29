@@ -5,7 +5,8 @@
 
 TODO: add ID's to sections and link sub nav to respective secions
 TODO: fix line height issues w/ new fonts
-TODO: Ensure gray backgrounds are correct 
+TODO: Ensure gray backgrounds are correct
+TODO: add contact info for coaches on team pages
 
 text:
 dark blue heading: #34567a
@@ -909,4 +910,37 @@ tr:nth-child(odd) {
 
 .game-times .view-all-button {
   margin: 0;
+}
+
+/* MEMBERSHIP PAGE
+-------------------------------------------------------------------------------- */
+
+
+/* MEMBERSHIP INFO
+--------------------------- */
+
+.member-about {
+  padding: 120px 0 0;
+}
+
+/* FEES & FEE TABLES
+--------------------------- */
+
+.fees {
+  padding: 0 0 120px;
+}
+.fees .fee-table {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.member-fee {
+  margin-right: 20%;
+}
+
+/* WAITLIST BUTTON
+--------------------------- */
+
+.member-about .view-all{
+  position: relative;
 }
