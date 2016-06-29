@@ -5,7 +5,7 @@
 
 TODO: add ID's to sections and link sub nav to respective secions
 TODO: fix line height issues w/ new fonts
-TODO: change dark gray background to consistent #e5e8ed
+TODO: Ensure gray backgrounds are correct 
 
 text:
 dark blue heading: #34567a
@@ -466,13 +466,14 @@ tr:nth-child(odd) {
 }
 
 .coach-photo-section {
-  padding: 60px 55px 47px 55px;
+  padding: 60px 22px 47px;
   background: #fbfbfb;
+  text-align: center;
 }
 
 .coach-photo {
   display: inline-block;
-  margin-right: 45px;
+  padding: 0 22px;
 }
 
 .coach-photo:last-child {
@@ -862,4 +863,50 @@ tr:nth-child(odd) {
 
 .content-container .img-container {
   float: right;
+}
+
+/* ADULT SWIM TEAM PAGE
+-------------------------------------------------------------------------------- */
+
+.adult-practice-schedule {
+  width: 60%;
+  padding-right: 18%;
+}
+
+.adult-forms-records {
+  background: #fff;
+}
+
+.adult-forms {
+  border-left: 1px solid #cfd6dc;
+  padding: 18px 0 18px 40px;
+}
+
+/* WATER POLO PAGE
+-------------------------------------------------------------------------------- */
+
+.polo-links {
+  margin-top: 60px;
+}
+
+.game-times {
+  background: #f4f5f7;
+  padding: 120px 0;
+}
+
+.game-times h3 {
+  margin-bottom: 35px;
+}
+
+.game-times .bullet-list {
+  margin-bottom: 60px;
+}
+
+.game-times .view-all {
+  position: relative;
+  background: transparent;
+}
+
+.game-times .view-all-button {
+  margin: 0;
 }
