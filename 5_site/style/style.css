@@ -7,6 +7,7 @@ TODO: add ID's to sections and link sub nav to respective secions
 TODO: fix line height issues w/ new fonts
 TODO: Ensure gray backgrounds are correct
 TODO: add contact info for coaches on team pages
+TODO: embed fb feed and google maps (footer and contact) once working in WP
 TODO: COPY NEEDED:
   -Private Lessons (swim and tennis)
 
@@ -991,4 +992,19 @@ tr:nth-child(odd) {
 
 .adult-flights h3 {
   margin-bottom: 15px;
+}
+
+/* CONTACT PAGE
+-------------------------------------------------------------------------------- */
+
+.contact-main {
+  padding: 120px 0;
+}
+
+.contact-main h3 {
+  margin-bottom: 10px;
+}
+
+.contact-main .hero-text {
+  margin-bottom: 25px;
 }
