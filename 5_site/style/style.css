@@ -6,6 +6,7 @@
 TODO: add ID's to sections and link sub nav to respective secions
 TODO: fix line height issues w/ new fonts
 TODO: change dark gray background to consistent #e5e8ed
+
 text:
 dark blue heading: #34567a
 gray body text:  #76797e
@@ -149,6 +150,8 @@ a {
   color: #5e8cbd;
   display: inline-block;
   margin: -8px 5px 0px 0;
+  font-family: serif;
+  font-weight: bold;
 }
 
 .wave-icon {
@@ -844,4 +847,19 @@ tr:nth-child(odd) {
 
 .bio-container .hero-text {
   font-size: 12px;
+}
+
+/* CLUB HISTORY PAGE
+-------------------------------------------------------------------------------- */
+
+.club-history {
+  padding: 120px 0;
+}
+.history-content {
+  width: 63%;
+  display: inline-block;
+}
+
+.content-container .img-container {
+  float: right;
 }
