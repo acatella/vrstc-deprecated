@@ -4,6 +4,12 @@
 /* GENERAL STYLE
 -------------------------------------------------------------------------------- */
 
+@media (max-width: 600px) {
+  .sub-nav-item { /* works for dropdowns w/ three links */
+    padding: 8px 20px 8px 18px;
+  }
+}
+
 
 
 /* HOME PAGE
@@ -86,4 +92,39 @@
   .pc-button-title {
     text-align: left;
   }
+}
+
+/* SWIM TEAM PAGE
+-------------------------------------------------------------------------------- */
+
+@media (max-width: 800px) {
+  .swim-team-info {
+    width: 100%;
+    float: none;
+    margin:0;
+  }
+
+  .coach-photo-container {
+    width: 100%;
+    float: none;
+    margin: 60px auto;
+    display: block;
+  }
+
+  .facebook-embed,
+  .practice-schedule {
+    width: 100%;
+  }
+
+  .facebook-embed {
+    display: block;
+    margin: 0 auto 60px;
+    float: none;
+  }
+
+  .swim-team-records,
+  .swim-team-forms   {
+    padding-left: 20px;
+  }
+
 }

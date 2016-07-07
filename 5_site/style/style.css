@@ -114,6 +114,7 @@ button::-moz-focus-inner {
 
 .container {
   max-width: 1400px;
+  min-width: 400px;
   margin: 0 auto;
   position: relative;
 }
@@ -130,7 +131,7 @@ h1 {
 
 h2 {
   font-size: 25px;
-  line-height: normal;
+  line-height: 28px;
   margin-bottom: 35px;
   color: #34567a;
 }
@@ -490,7 +491,8 @@ tr:nth-child(odd) {
 }
 
 .coach-photo-container {
-  width: 525px;
+  width: 46%;
+  max-width: 525px;
   display: inline-block;
   border: 1px solid #cfd6dc;
   float: right;
@@ -505,14 +507,20 @@ tr:nth-child(odd) {
 }
 
 .coach-photo-section {
-  padding: 60px 22px 47px;
+  /*padding: 60px 22px 47px;*/
+  padding-top: 60px;
+  padding-bottom: 47px;
+  padding-left: 4%;
+  padding-right: 4%;
   background: #fbfbfb;
   text-align: center;
 }
 
 .coach-photo {
   display: inline-block;
-  padding: 0 22px;
+  vertical-align: top;
+  padding: 0 4%;
+  width: 45%;
 }
 
 .coach-photo:last-child {
@@ -526,10 +534,16 @@ tr:nth-child(odd) {
   background: #f4f5f7;
 }
 
+.coach-photo img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
 .coach-photo p {
   text-align: center;
-  margin-top: 30px;
   color:  #76797e;
+  overflow: hidden;
+  line-height: 18px;
 }
 
 
@@ -571,10 +585,11 @@ tr:nth-child(odd) {
 --------------------------- */
 
 .facebook-embed {
-  width: 500px;
+  width: 50%;
+  max-width: 500px;
   height: 600px;
   float: right;
-  background: #fbfbfb;
+  background: #e5e8ed;
   margin-top: 120px;
 }
 
