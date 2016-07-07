@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width">
   <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
   <link href='style/style.css' rel='stylesheet' type='text/css'>
+  <link href='style/responsive.css' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -15,20 +16,20 @@
     <section class="sub-page-splash swim-lessons-splash">
       <h1 class="sub-splash-title">Swim Lessons</h1>
     </section>
-    <nav class="sub-nav">
-      <a class="sub-nav-item" href="#">Information</a>
-      <a class="sub-nav-item" href="#">Registration</a>
-      <a class="sub-nav-item" href="#">Classes</a>
-      <a class="sub-nav-item" href="#">Private Lessons</a>
+    <nav class="sub-nav four-sub-nav">
+      <a class="sub-nav-item" href="#swim-lessons-info">Information</a>
+      <a class="sub-nav-item" href="#swim-lessons-registration">Registration</a>
+      <a class="sub-nav-item" href="#swim-lessons-classes">Classes</a>
+      <a class="sub-nav-item" href="#swim-lessons-private">Private Lessons</a>
     </nav>
-    <section class="swim-lessons-about">
+    <section class="swim-lessons-about" id="swim-lessons-info">
       <div class="content-container">
         <div class="swim-lessons-info">
           <h2 class="sl-info-title">Swim Lessons</h2>
           <span class="wave-icon"></span>
           <p class="hero-text">
             Lessons are offered for members and non-members in 8-day,
-            30-minute sessions (Monday - Thursday). We also offer <a>Private Lessons</a>.
+            30-minute sessions (Monday - Thursday). We also offer <a href="#swim-lessons-private">Private Lessons</a>.
           </p>
           <div class="times-list">
             <h3>Times</h3>
@@ -74,7 +75,7 @@
         </table>
       </div> <!--content container -->
     </section>
-    <section class="registration">
+    <section class="registration" id="swim-lessons-registration">
       <div class="content-container">
         <h2>Registration</h2>
         <span class="wave-icon"></span>
@@ -87,7 +88,9 @@
           <li class="bl-item"><span class="hero-text">Continuing non-members have priority over new non-members.</span></li>
           <li class="bl-item"><span class="hero-text">In person registration only.</span></li>
           <li class="bl-item"><span class="hero-text">Prepayment required at the time of registration. Cash or checks only.</span></li>
+          <li class="bl-item"><span class="hero-text">Checks or cash only.</span></li>
           <li class="bl-item"><span class="hero-text">Numbers will be passed out a half hour before registration.</span></li>
+          <li class="bl-item"><span class="hero-text">We will take 3 year olds on a case-by-case basis. Please ask and we can mutually decide if your child is ready.</span></li>
         </ul>
         <h3>Registration Deadlines</h3>
         <table class="table registration-deadlines">
@@ -106,37 +109,37 @@
           <tr>
             <td>Session 1</td>
             <td>June 14, 5:00 pm</td>
-            <td>June 14, 5:00 pm</td>
-            <td>June 14, 5:00 pm</td>
+            <td>June 21, 5:00 pm</td>
+            <td>June 21, 7:00 pm</td>
           </tr>
           <tr>
             <td>Session 2</td>
             <td>July 6, 10:45 am</td>
-            <td>July 6, 10:45 am</td>
-            <td>July 6, 10:45 am</td>
+            <td>July 7, 10:45 am</td>
+            <td>July 7, 1:00 pm</td>
           </tr>
           <tr>
             <td>Session 3</td>
             <td>July 20, 10:45 am</td>
-            <td>July 20, 10:45 am</td>
-            <td>July 20, 10:45 am</td>
+            <td>July 21, 10:45 am</td>
+            <td>July 21, 1:00 pm</td>
           </tr>
           <tr>
             <td>Session 4</td>
             <td>August 3, 10:45 am</td>
-            <td>August 3, 10:45 am</td>
-            <td>August 3, 10:45 am</td>
+            <td>August 4, 10:45 am</td>
+            <td>August 4, 1:00 pm</td>
           </tr>
           <tr>
             <td>Session 5</td>
             <td>August 17, 10:45 am</td>
-            <td>August 17, 10:45 am</td>
-            <td>August 17, 10:45 am</td>
+            <td>August 18, 10:45 am</td>
+            <td>August 18, 1:00 pm</td>
           </tr>
         </table>
       </div> <!-- content container -->
     </section>
-    <section class="class-levels">
+    <section class="class-levels" id="swim-lessons-classes">
       <div class="content-container">
         <h2>Class Levels</h2>
         <span class="wave-icon"></span>
@@ -144,73 +147,69 @@
           <div class="class-container">
             <h3>Minnow I and II (for ages 4 - 5)</h3>
             <p class="hero-text">
-              These classes recognize the developmental limitations of children this age.
-              The are designed to move the young swimmer from comfort and enjoyment of the
-              basic strokes. Patience and fun are emphasized.
+              These classes recognize the developmental stage of children this age. They are designed to move the young swimmer from comfort and enjoyment of the water to basic strokes. Patience and fun are emphasized.
             </p>
           </div>
           <div class="class-container">
             <h3>Minnow III (for ages 4 - 5)</h3>
             <p class="hero-text">
-              These classes recognize the developmental limitations of children this age.
-              The are designed to move the young swimmer from comfort and enjoyment of the
-              basic strokes. Patience and fun are emphasized.
+              This class is for little ones who are very comfortable in the water and can easily float anywhere in the pool. While they may be comfortable playing in the water, they are ready to learn the basic coordination required for traditional strokes.
             </p>
           </div>
           <div class="class-container">
-            <h3>Non-Floater</h3>
+            <h3>Non-Floater (for ages 5 &amp; up)</h3>
             <p class="hero-text">
-              This class is for older children (5 &amp; up) who  need to become comfortable
-              in the water. They will work toward putting the face in the water and ultimately
-              floating. These children usually have some real fear so patience will be stressed.
+              This class is for older children who need to become comfortable in the water. They will work toward putting their face in the water and ultimately floating. These children usually have some real fear of the water, so patience will be emphasized.
             </p>
           </div>
           <div class="class-container">
-            <h3>Floater</h3>
+            <h3>Floater (for ages 5 &amp; up)</h3>
             <p class="hero-text">
-              For older children (5 &amp; up) who are somewhat comfortable in the water, can
-              put the face in for a period of time, and are floating well. We will work on many
-              prerequisites to swimming.
+              This class is for older children who are somewhat comfortable in the water, can put their face in the water for a period of time, and are floating well. We will work on many prerequisites to swimming, like kicking and using their arms.
+            </p>
+          </div>
+          <div class="class-container">
+            <h3>Beginner I</h3>
+            <p class="hero-text">
+              These swimmers are ready for the complicated coordination required of the crawl stroke. Students will also spend a great deal of time on their back and doing other activities to increase their confidence in deeper water. Correct technique will come before distance, and safety will be stressed.
             </p>
           </div>
         </div>  <!-- left col -->
         <div class="right-col">
           <div class="class-container">
-            <h3>Beginner I</h3>
-            <p class="hero-text">
-              These classes recognize the developmental limitations of children this age.
-              The are designed to move the young swimmer from comfort and enjoyment of the
-              basic strokes. Patience and fun are emphasized.
-            </p>
-          </div>
-          <div class="class-container">
             <h3>Beginner II</h3>
             <p class="hero-text">
-              This class is for the little ones who are very comfortable in the water and can
-              easily float anywhere in the pool. Because of their age they have difficulties with
-              the coordination of traditional strokes.
+              The crawl stroke will be improved (an emphasis placed on side breathing), more time spent on their back. Other skills are introduced such as treading water, underwater swimming, and diving from the side of the pool.
             </p>
           </div>
           <div class="class-container">
             <h3>Advanced Beginner</h3>
             <p class="hero-text">
-              This class is for the little ones who are very comfortable in the water and can
-              easily float anywhere in the pool. Because of their age they have difficulties with
-              the coordination of traditional strokes.
+              This class will continue the progression towards a relaxed and efficient crawl stroke and backstroke. The breaststroke kick will be introduced. There will also be an increase in drills to help with continued skill development.
+            </p>
+          </div>
+          <div class="class-container">
+            <h3>Beginner Intermediate</h3>
+            <p class="hero-text">
+              This class offers continued stroke development through increased distances. Breaststroke will be introduced.
+            </p>
+          </div>
+          <div class="class-container">
+            <h3>Intermediate</h3>
+            <p class="hero-text">
+              Strokes will continue to be improved with a great deal of emphasis on the breaststroke, a difficult yet valuable stroke. This class is often repeated by a swimmer because the skills take time to perfect.
             </p>
           </div>
           <div class="class-container">
             <h3>Racing</h3>
             <p class="hero-text">
-              This class is for the little ones who are very comfortable in the water and can
-              easily float anywhere in the pool. Because of their age they have difficulties with
-              the coordination of traditional strokes.
+              This class offers an emphasis on competitive strokes and turns, and designed to help a swim team member. Swim team workouts are not always the best place to makes sure strokes are efficient and correct, Racing is an opportunity for focused time on getting the right technique.
             </p>
           </div>
         </div> <!-- right col -->
       </div>
     </section>
-    <section class="private-lessons">
+    <section class="private-lessons" id="swim-lessons-private">
       <div class="content-container">
         <h2>Private Lessons</h2>
         <span class="wave-icon"></span>
