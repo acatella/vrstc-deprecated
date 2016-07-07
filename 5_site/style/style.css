@@ -1,4 +1,4 @@
-/* STYLSHEET FOR VRSTC SITE by Afi C. Clark */
+/* STYLESHEET FOR VRSTC SITE by Afi C. Clark */
 
 
 /* KEY
@@ -124,6 +124,7 @@ button::-moz-focus-inner {
 
 h1 {
   font-size: 40px;
+  line-height: 45px;
   color: #fff;
 }
 
@@ -153,6 +154,11 @@ h5 {
 a {
   color: #608abc;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
 .drop-cap {
   float: left;
   font-size: 67px;
@@ -192,7 +198,9 @@ a {
   cursor: pointer;
   background: #5d8bbc;
   color: #fff;
+  text-decoration: none;
 }
+
 
 .sub-page-splash {
   background: #5381ac; /* placeholder until we add images */
@@ -273,23 +281,26 @@ tr:nth-child(odd) {
 }
 
 .title-container {
+  width: 90%;
   margin: 215px auto 185px;
   text-align: center;
 }
 
 .splash-title {
-  margin: 0 0 35px;
+  margin: 0 0 15px;
 }
 
 .sub-title {
   font-size: 12px;
+  margin: 0 30px;
   text-transform: uppercase;
   display: inline-block;
 }
 
 .splash-img .wave-icon {
-   display: inline-block;
-   margin: 0;
+  vertical-align: top;
+  display: inline-block;
+  margin: 3.5px 0 0;
 }
 
 .spacer {
@@ -301,7 +312,6 @@ tr:nth-child(odd) {
 --------------------------- */
 
 .calendar-container {
-  height: 600px;
   width: 90%;
   max-width: 1260px;
   background: #fff;
@@ -313,11 +323,18 @@ tr:nth-child(odd) {
   box-shadow: 0 0 5px 10px rgba(0,0,0, .02);
 }
 
+.calendar-plugin {
+  width: 60%;
+  height: 600px;
+  float: right;
+}
+
 /* ABOUT
 --------------------------- */
 
 .about {
   width: 40%;
+  display: inline-block;
   border-right: 2px solid #cfd6dc;
   background: #fff;
   padding: 80px 70px;
@@ -342,20 +359,21 @@ tr:nth-child(odd) {
 }
 
 .ch-title-container {
-  height: 40px;
+  display: inline-block;
 }
 
 .ch-title {
   display: inline-block;
   line-height: 40px;
-  margin-bottom: 0;
+  margin-bottom: 27px;
   color: #fff;
 }
 
-.pc-button-title,
-.pc-button {
+.pc-button-container {
+  display: inline-block;
   float: right;
 }
+
 
 .pc-button-title {
   width: 137px;
@@ -387,23 +405,33 @@ tr:nth-child(odd) {
 
 .img-container {
   display: inline-block;
+  width: 40%;
 }
 
 .img-fpo {
   background: #ccc;
   height: 302px;
   width: 280px;
+  box-shadow: -4% -4% 0 #ecedf1;
+  margin: 15px 0 0 15px;
+}
+
+.thumb {
+  width: 95%;
   box-shadow: -15px -15px 0 #ecedf1;
   margin: 15px 0 0 15px;
 }
 
 .img-title  {
-  width: 200px;
+  width: 95%;
+  float: right;
   text-align: center;
   margin: 30px auto 0;
   font-size: 12px;
   font-style: italic;
   line-height: 15px;
+  color: #aab2bc;
+  padding: 0 10% 0;
 }
 
 .ca-info-container {
@@ -423,12 +451,13 @@ tr:nth-child(odd) {
   height: 100%;
   text-align: center;
   float: right;
-  padding: 160px 0 0;
+  padding: 160px 20px 0;
 }
 
 .ql-button {
   display: inline-block;
   margin-bottom: 10px;
+  width: 68%;
 }
 
 .quick-links p {

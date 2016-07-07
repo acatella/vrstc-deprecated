@@ -1,0 +1,89 @@
+/* RESPONSIVE STYLE FOR VRSTC SITE by Afi C. Clark */
+
+
+/* GENERAL STYLE
+-------------------------------------------------------------------------------- */
+
+
+
+/* HOME PAGE
+-------------------------------------------------------------------------------- */
+
+
+@media (max-width: 1050px) {
+  .about {
+    width: 100%;
+    border-bottom: 2px solid #cfd6dc;
+    border-right: none;
+  }
+
+  .calendar-plugin {
+    width: 100%;
+  }
+
+  .spacer {
+    height: 870px; /* this will need to change based on final height of calendar plugin */
+  }
+}
+
+@media (max-width: 850px) {
+  .ca-info {
+    width: 60%;
+  }
+
+  .quick-links {
+    width: 38%;
+  }
+
+  .img-container {
+    display: none;
+  }
+
+  .ca-info-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .calendar-container {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    box-shadow: none;
+    top: 0;
+    left: 0;
+  }
+
+  .about {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .spacer {
+    display: none;
+  }
+
+  .ca-info {
+    padding-right: 5%;
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px solid #cfd6dc;
+  }
+
+  .quick-links {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .pc-button-container {
+    float: none;
+    display: block;
+  }
+
+  .pc-button-title {
+    text-align: left;
+  }
+}
