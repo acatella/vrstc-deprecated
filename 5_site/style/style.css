@@ -122,6 +122,10 @@ button::-moz-focus-inner {
   clear: both;
 }
 
+.overflow-auto * { /* gets rid of margin push problem w/ absolutely floated section */
+  overflow: auto;
+}
+
 h1 {
   font-size: 40px;
   line-height: 45px;
@@ -274,9 +278,6 @@ tr:nth-child(odd) {
 /* HOME PAGE
 -------------------------------------------------------------------------------- */
 
-#home-page * { /* gets rid of margin push problem w/ absolutely floated section */
-  overflow: auto;
-}
 /* PAGE TITLE AND IMAGE
 --------------------------- */
 
@@ -963,7 +964,7 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
 -------------------------------------------------------------------------------- */
 
 .adult-practice-schedule {
-  width: 60%;
+  width: 100%;
   padding-right: 18%;
 }
 
@@ -976,6 +977,9 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
   padding: 18px 0 18px 40px;
 }
 
+#adult-meet {
+  margin-top: 120px;
+}
 /* WATER POLO PAGE
 -------------------------------------------------------------------------------- */
 
