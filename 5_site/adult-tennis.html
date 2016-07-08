@@ -8,19 +8,20 @@
   <meta name="viewport" content="width=device-width">
   <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
   <link href='style/style.css' rel='stylesheet' type='text/css'>
+  <link href='style/responsive.css' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
+<body class="overflow-auto">
   <div class="container">
     <section class="sub-page-splash">
       <h1 class="sub-splash-title">Adult Tennis</h1>
     </section>
   </div>
-  <nav class="sub-nav">
-    <a class="sub-nav-item" href="#">Information</a>
-    <a class="sub-nav-item" href="#">Flights</a>
-    <a class="sub-nav-item" href="#">Clinics</a>
-    <a class="sub-nav-item" href="#">Cardio Tennis</a>
+  <nav class="sub-nav four-sub-nav">
+    <a class="sub-nav-item" href="#adult-tennis-info">Information</a>
+    <a class="sub-nav-item" href="#adult-flights">Flights</a>
+    <a class="sub-nav-item" href="#adult-clinics">Clinics</a>
+    <a class="sub-nav-item" href="#cardio-tennis">Cardio Tennis</a>
   </nav>
   <section class="adult-tennis-info">
     <div class="content-container">
@@ -35,16 +36,14 @@
         <h3>Coaches</h3>
         <div class="coach-photo-section">
           <div class="coach-photo">
-            <div class="coach-photo-fpo">
-              <!-- placeholder for coach photo -->
-            </div>
+            <img src="../4_assets/visual/headshot-placeholder.png">
             <p>Ron Coleman</p>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="adult-tennis-time-price">
+  <section class="adult-tennis-time-price" id="adult-tennis-info">
     <div class="content-container">
       <div class="times-list">
         <h3>Times</h3>
@@ -87,7 +86,7 @@
       </div>
     </div>
   </section>
-  <section class="adult-flights">
+  <section class="adult-flights" id="adult-flights">
     <div class="content-container">
       <h2>Flights</h2>
       <span class="wave-icon"></span>
@@ -135,7 +134,7 @@
       </ul>
     </div>
   </section>
-  <section class="adult-clinics">
+  <section class="adult-clinics" id="adult-clinics">
     <div class="content-container">
       <h2>Clinics</h2>
       <span class="wave-icon"></span>
@@ -153,7 +152,7 @@
       </p>
     </div>
   </section>
-  <section class="cardio-tennis">
+  <section class="cardio-tennis" id="cardio-tennis">
     <div class="content-container">
       <h2>Cardio Tennis</h2>
       <span class="wave-icon"></span>

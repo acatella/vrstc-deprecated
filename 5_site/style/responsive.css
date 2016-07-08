@@ -226,3 +226,26 @@
     padding-top: 60px;
   }
 }
+
+/* ADULT TENNIS PAGE
+-------------------------------------------------------------------------------- */
+
+@media (max-width: 1000px) {
+  .adult-tennis-info .coach-photo-container {
+    margin: 0 auto;
+    float: none;
+    display: block;
+    width: 75%;
+  }
+}
+
+@media (max-width: 765px) {
+  .times-list,
+  .pricing-list {
+    width: 100%;
+  }
+
+  .pricing-list {
+    margin-top: 30px;
+  }
+}
