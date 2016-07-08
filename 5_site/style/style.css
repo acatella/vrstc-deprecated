@@ -4,18 +4,22 @@
 /* KEY
 
 TODO: add ID's to sections and link sub nav to respective secions
+TODO: link quick link buttons on homepage (better done in wordpress)
 TODO: fix line height issues w/ new fonts
 TODO: Ensure gray backgrounds are correct
 TODO: add contact info for coaches on team pages
-TODO: write JS to show and hide club rules
-  -Show a specifc number of rules and toggle the display of hidden rules on button click
-TODO: add hover effect on <a> tags
+  -There is a single email for vrstc coaches, add this to contact page
 TODO: add all visual assets
 TODO: add official copy for each page
 TODO: mobile styling
 TODO: embed fb feed and google maps (footer and contact) once working in WP
+TODO: build header and footer
+TODO: build FAQ and Basic Info pages for:
+  -Water Polo
 TODO: COPY NEEDED:
   -Private Lessons (swim and tennis)
+  -Water Polo Page
+  -Board members and bios
 
 text:
 dark blue heading: #34567a
@@ -988,7 +992,7 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
 }
 
 .game-times {
-  background: #f4f5f7;
+  background: #e5e8ed;
   padding: 120px 0;
 }
 
@@ -1007,6 +1011,26 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
 
 .game-times .view-all-button {
   margin: 0;
+}
+
+.polo-practice-schedule {
+  width: 60%;
+  padding-right: 18%;
+}
+
+.polo-forms-records {
+  margin-left: 60%;
+}
+
+.polo-view-all-button {
+  background: #5e8cbd;
+  color: #fff;
+}
+
+.polo-view-all-button:hover {
+  background: #fff;
+  color: #5e8cbd;
+  border: 1px solid #5e8cbd;
 }
 
 /* MEMBERSHIP PAGE

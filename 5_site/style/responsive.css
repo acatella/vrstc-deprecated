@@ -204,3 +204,25 @@
     width: 100%;
   }
 }
+
+/* WATER POLO PAGE
+-------------------------------------------------------------------------------- */
+
+@media (max-width: 800px) {
+  .polo-forms-records {
+      width: 100%;
+      padding: 0 0 120px;
+      margin-left: 0;
+  }
+
+  .polo-forms,
+  .polo-links {
+    border-left: none;
+    padding: 0;
+  }
+
+  .polo-links {
+    margin: 0;
+    padding-top: 60px;
+  }
+}
