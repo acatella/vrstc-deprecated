@@ -972,10 +972,13 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
 .history-content {
   width: 63%;
   display: inline-block;
+  margin-right: 10%;
+  vertical-align: top;
 }
 
-.content-container .img-container {
-  float: right;
+.club-history .img-container {
+  display: inline-block;
+  width: 20%;
 }
 
 /* ADULT SWIM TEAM PAGE

@@ -276,3 +276,24 @@
     width: 100%;
   }
 }
+
+/* CLUB HISTORY PAGE
+-------------------------------------------------------------------------------- */
+
+@media (max-width: 840px) {
+  .history-content {
+    width: 100%;
+  }
+
+  .club-history .img-container {
+    margin: 60px auto;
+    display: block;
+    width: 75%;
+  }
+}
+
+@media (max-width: 600px) {
+  .club-history .img-container {
+    width: 100%;
+  }
+}
