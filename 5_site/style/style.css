@@ -583,6 +583,7 @@ tr:nth-child(odd) {
 
 .bullet-list {
   margin: 20px 0;
+  list-style: none;
 }
 
 .bullet-list .bl-item {
@@ -590,6 +591,19 @@ tr:nth-child(odd) {
   color: #34567a;
   list-style-position: inside;
   margin-left: 8px;
+  position: relative;
+  padding-left: 18px;
+}
+
+.bullet-list .bl-item:before {
+  content: '';
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background: #34567a;
+  position: absolute;
+  left: 0px;
+  top: 12px;
 }
 
 /* SWIM TEAM FACEBOOK EMBED
