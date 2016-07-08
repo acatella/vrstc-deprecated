@@ -71,9 +71,20 @@
     $('.view-all-button').on('click', function(e) {
       var clicked = $(e.target);
       var parent = clicked.parent().parent();
-      console.log(parent);
-      parent.find('.ol-item').removeClass('hidden');
-      clicked.parent().css('position','relative');
+
+      if (clicked.text() == 'View All Rules') {
+        parent.find('.ol-item').removeClass('hidden');
+        clicked.parent().css('position','relative');
+        clicked.text('Hide Rules');
+      }
+
+      else{
+        hideItems();
+        clicked.text('View All Rules');
+        clicked.parent().css('position','absolute');
+      }
+
+
     });
   });
 
