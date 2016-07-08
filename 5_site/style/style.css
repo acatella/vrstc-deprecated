@@ -805,7 +805,10 @@ tr:nth-child(odd) {
 
 .rule-block {
   padding: 120px 0 0;
-  height: 800px;
+}
+
+.rule-block:last-child {
+  padding-bottom: 120px;
 }
 
 .rule-block .content-container {
