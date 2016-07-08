@@ -136,6 +136,7 @@
   .facebook-embed,
   .practice-schedule {
     width: 100%;
+    padding-right: 0;
   }
 
   .facebook-embed {
@@ -266,6 +267,10 @@
   .pricing-list {
     margin-top: 30px;
   }
+
+  .adult-tennis-info .coach-photo-container {
+    width: 100%;
+  }
 }
 
 /* TENNIS LESSONS PAGE
@@ -296,4 +301,29 @@
   .club-history .img-container {
     width: 100%;
   }
+}
+
+/* CONTACT PAGE
+-------------------------------------------------------------------------------- */
+
+@media (max-width: 600px) {
+  .contact-main .left-col,
+  .contact-main .right-col {
+    width: 100%;
+  }
+
+  .mail-links {
+    padding: 60px 0;
+    border: none;
+  }
+}
+
+/* TENNIS TEAM PAGE
+-------------------------------------------------------------------------------- */
+
+@media (max-width: 800px) {
+  #tennis-practice-games .right-col {
+    padding-top: 60px;
+  }
+
 }

@@ -8,18 +8,19 @@
   <meta name="viewport" content="width=device-width">
   <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
   <link href='style/style.css' rel='stylesheet' type='text/css'>
+  <link href='style/responsive.css' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
+<body class="overflow-auto">
   <div class="container">
     <section class="sub-page-splash swim-team-splash">
       <h1 class="sub-splash-title">Tennis Team</h1>
     </section>
-    <nav class="sub-nav">
-      <a class="sub-nav-item" href="#">Schedule</a>
-      <a class="sub-nav-item" href="#">Practice Times</a>
-      <a class="sub-nav-item" href="#">Game Times</a>
-      <a class="sub-nav-item" href="#">Forms</a>
+    <nav class="sub-nav four-sub-nav">
+      <a class="sub-nav-item" href="#tennis-schedule">Schedule</a>
+      <a class="sub-nav-item" href="#tennis-practice-games">Practice Times</a>
+      <a class="sub-nav-item" href="#tennis-practice-games">Game Times</a>
+      <a class="sub-nav-item" href="#tennis-forms">Forms</a>
     </nav>
     <div class="content-container">
       <section class="swim-team-about">
@@ -34,18 +35,19 @@
           <h3>Coaches</h3>
           <div class="coach-photo-section">
             <div class="coach-photo">
-              <div class="coach-photo-fpo">
-                <!-- placeholder for coach photo -->
-              </div>
+              <img src="../4_assets/visual/headshot-placeholder.png">
               <p>Ron Coleman</p>
+              <p class="hero-text">
+                <a class="email" href="mailto:mailto:rcole50940@aol.com">Email Ron</a>
+              </p>
             </div>
           </div>
         </div>
       </section>
-      <section class="swim-team-calendar">
+      <section class="swim-team-calendar" id="tennis-schedule">
         <!-- to be populated w/ worpess calendar plugin displaying posts tagged for swim team -->
       </section>
-      <section class="practice-schedule" id="tennis-schedule">
+      <section class="practice-schedule" id="tennis-practice-games">
         <div class="left-col">
           <h2 class="ps-title">Practice Schedule</h2>
           <span class="wave-icon"></span>
@@ -81,7 +83,7 @@
       </section>
       </div> <!-- content-container -->
       <div class="clearfix"></div>
-      <section class="forms-records">
+      <section class="forms-records" id="tennis-forms">
         <div class="content-container">
           <div class="swim-team-forms">
             <h3>Forms (PDF Downloads)</h3>

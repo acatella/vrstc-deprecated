@@ -928,7 +928,6 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
 }
 
 .bio-container {
-  display: inline-block;
   width: 45%;
   min-width: 300px;
   margin-bottom: 46px;
@@ -938,7 +937,9 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
   margin-right: 4.5%;
 }
 
-.bio-container h4,
+.bio-container h4 {
+  margin-bottom: 5px;
+}
 .bio-container h5  {
   margin: 0 0 20px;
 }
@@ -1086,7 +1087,7 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
 /* MEMBERSHIP PAGE
 -------------------------------------------------------------------------------- */
 
-#tennis-schedule {
+#tennis-practice-games {
   width: 100%;
 }
 
@@ -1154,5 +1155,5 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
 }
 
 .contact-main .hero-text {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
