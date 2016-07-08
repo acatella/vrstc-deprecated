@@ -905,12 +905,13 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
 -------------------------------------------------------------------------------- */
 
 .board-bios {
-  padding: 120px 0;
+  padding: 120px 0 60px;
 }
 
 .bio-container {
   display: inline-block;
   width: 45%;
+  min-width: 300px;
   margin-bottom: 46px;
 }
 
@@ -931,6 +932,18 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
   font-size: 12px;
 }
 
+/* GOVERNANCE LINK
+--------------------------- */
+
+.governance {
+  background: #e5e8ed;
+  padding: 60px 0;
+}
+
+.gov-forms {
+  margin: 0 auto;
+  text-align: center;
+}
 /* CLUB HISTORY PAGE
 -------------------------------------------------------------------------------- */
 
