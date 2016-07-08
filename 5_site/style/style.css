@@ -775,7 +775,7 @@ tr:nth-child(odd) {
 
 .private-lessons {
   padding: 120px 0;
-  background: #f4f5f7;
+  background: #e5e8ed;
 }
 
 .private-lessons p {
@@ -1124,6 +1124,19 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
 
 .adult-flights h3 {
   margin-bottom: 15px;
+}
+
+.private-lessons table {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.private-lessons td {
+  background: #fff;
+}
+
+.private-lessons h3 {
+  margin-top: 30px;
 }
 
 /* CONTACT PAGE

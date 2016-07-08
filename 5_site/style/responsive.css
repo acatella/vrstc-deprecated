@@ -14,6 +14,24 @@
   }
 }
 
+@media (max-width: 940px) {
+  .private-lessons .left-col,
+  .private-lessons .right-col {
+    width: 100%;
+  }
+
+  .private-lessons table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+}
+
+@media (max-width: 600px) {
+  .private-lessons table {
+    width: 100%;
+  }
+}
 
 
 /* HOME PAGE
@@ -247,5 +265,14 @@
 
   .pricing-list {
     margin-top: 30px;
+  }
+}
+
+/* TENNIS LESSONS PAGE
+-------------------------------------------------------------------------------- */
+
+@media (max-width: 600px) {
+  .lesson-sessions {
+    width: 100%;
   }
 }
