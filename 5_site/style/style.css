@@ -67,8 +67,7 @@ light gray bg: #fbfbfb
   -moz-osx-font-smoothing: grayscale;
   text-decoration: none;
   background: transparent;
-  box-sizing: border-box;
-  overflow: auto;
+  box-sizing: border-box;  
   font-family: 'Varela Round', sans-serif;
 }
 
@@ -275,6 +274,9 @@ tr:nth-child(odd) {
 /* HOME PAGE
 -------------------------------------------------------------------------------- */
 
+#home-page * { /* gets rid of margin push problem w/ absolutely floated section */
+  overflow: auto;
+}
 /* PAGE TITLE AND IMAGE
 --------------------------- */
 
@@ -807,7 +809,6 @@ tr:nth-child(odd) {
 }
 
 .rule-block .content-container {
-  position: relative; /* to anchor view all button */
   height: 100%;
 }
 
@@ -818,6 +819,7 @@ tr:nth-child(odd) {
   margin: 20px 0;
   list-style-type: none;
   margin-left: 0;
+  position: relative; /* to anchor view all div */
 }
 
 .order-list .ol-item {
@@ -856,6 +858,12 @@ tr:nth-child(odd) {
   top: 0;
   z-index: -1;
 }
+
+ol.order-list .hidden { /* hides all but set number of rules per section */
+  display: none;
+}
+
+
 
 /* VIEW ALL BUTTON
 --------------------------- */
