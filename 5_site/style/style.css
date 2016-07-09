@@ -1163,10 +1163,16 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
 /* HEADER AND TOP NAV
 -------------------------------------------------------------------------------- */
 
+
+.nav-body {
+  /*overflow-y: visible;*/
+}
+
 header {
   height: 75px;
   background: #fff;
   padding-left: 4.5%;
+
 }
 
 header .logo {
@@ -1186,7 +1192,6 @@ header .logo img {
 }
 
 .top-nav {
-  display: inline-block;
   float:right;
 }
 
@@ -1230,6 +1235,106 @@ header .logo img {
 }
 
 .top-nav-item a:hover {
+  background: #eff2f7;
+  text-decoration: none;
+}
+
+/* MOBILE NAV
+-------------------------------------------------------------------------------- */
+
+.mobile-nav-button {
+  display: none;
+  height: 30px;
+  width: 30px;
+  background: #ccc;
+  margin-top: 22.5px;
+  margin-right: 30px;
+  float: right;
+}
+
+.mobile-nav-close {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background: #ccc;
+  position: absolute;
+  left: 15px;
+  top: -15px;
+}
+
+.mobile-nav-container {
+  position: relative;
+}
+
+.mobile-nav-button:hover,
+.mobile-nav-close {
+  cursor:pointer;
+}
+
+.mobile-nav {
+  display: none;
+  position: absolute;
+  top:0;
+  right: 0;
+  background: #fff;
+  width: 75%;
+  padding-right: 10%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: right;
+  border-left: 1px solid #cfd6dc;
+  z-index: 1;
+  -moz-transition: all 0.2s linear 0s;
+  -webkit-transition: all 0.2s linear 0s;
+  -ms-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+
+.mobile-nav-dropdown-button {
+  color: #34567a;
+  font-size: 14px;
+}
+
+.mobile-nav-item a {
+  color: #34567a;
+  font-size: 10px
+}
+
+.mobile-nav-section {
+
+}
+
+.mobile-nav-dropdown-button {
+  display: inline-block;
+  padding: 15px 0;
+  width: 50%;
+}
+
+.mobile-nav-dropdown {
+  width: 50%;
+  display: none;
+
+}
+
+.mobile-nav-item {
+  list-style: none;
+}
+
+.mobile-nav-item a {
+  display: inline-block;
+  width: 100%;
+  padding: 15px 10px 15px 0;
+}
+
+.mobile-nav-visible .mobile-nav-dropdown {
+  display: inline-block
+}
+
+.mobile-nav-section:hover .mobile-nav-dropdown-button {
+  cursor: pointer;
+}
+
+.mobile-nav-item a:hover {
   background: #eff2f7;
   text-decoration: none;
 }
