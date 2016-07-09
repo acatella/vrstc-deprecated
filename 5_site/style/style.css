@@ -3,23 +3,19 @@
 
 /* KEY
 
-TODO: add ID's to sections and link sub nav to respective secions
 TODO: link quick link buttons on homepage (better done in wordpress)
-TODO: fix line height issues w/ new fonts
-TODO: Ensure gray backgrounds are correct
 TODO: add contact info for coaches on team pages
-  -There is a single email for vrstc coaches, add this to contact page
+TODO: There is a single email for vrstc coaches, add this to contact page
 TODO: add all visual assets
-TODO: add official copy for each page
-TODO: mobile styling
 TODO: embed fb feed and google maps (footer and contact) once working in WP
 TODO: build header and footer
+TODO: fix sub nav responsiveness
 TODO: build FAQ and Basic Info pages for:
   -Water Polo
 TODO: COPY NEEDED:
-  -Private Lessons (swim and tennis)
   -Water Polo Page
-  -Board members and bios
+  -Club History
+  -Staff Page
 
 text:
 dark blue heading: #34567a
@@ -227,7 +223,13 @@ a:hover {
 
 .sub-nav-item {
   border-right: 1px solid #cfd6dc;
-  padding: 8px 42px 8px 38px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 4%;
+  padding-right: 4%;    
+  margin-left: -4px;
+
+
   font-size: 13.5px;
   display: inline-block;
 }

@@ -5,12 +5,9 @@
 -------------------------------------------------------------------------------- */
 
 @media (max-width: 650px) {
-  .three-sub-nav .sub-nav-item { /* keeps dropdowns w/ three links inline */
-    padding: 8px 20px 8px 18px;
-  }
-
-  .four-sub-nav .sub-nav-item { /* Keeps dropdowns w/ four links inline */
-    padding: 8px 6px 8px 4px;
+  .sub-nav-item {
+    padding-left: 3%;
+    padding-right: 3%;
   }
 }
 
@@ -213,6 +210,11 @@
   .view-all-button {
     width: 50%;
   }
+
+  .club-rules-sub-nav .sub-nav-item {
+      padding-left: 2%;
+      padding-right: 2%;
+  }
 }
 
 /* BOARD PAGE
@@ -321,7 +323,7 @@
 /* TENNIS TEAM PAGE
 -------------------------------------------------------------------------------- */
 
-@media (max-width: 800px) {
+@media (max-width: 680px) {
   #tennis-practice-games .right-col {
     padding-top: 60px;
   }
