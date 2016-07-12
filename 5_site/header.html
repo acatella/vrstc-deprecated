@@ -10,10 +10,10 @@
   <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
   <link href='style/style.css' rel='stylesheet' type='text/css'>
   <link href='style/responsive.css' rel='stylesheet' type='text/css'>
-  <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 </head>
 
-<body class="nav-body">
+<body>
   <div class="container nav-container">
     <header id="header">
       <a class="logo"><img src="../4_assets/visual/vrstc-logomark.png"></a>
@@ -109,7 +109,7 @@
 
       // Top Nav Click Events for Mobile and Desktop
       $('.top-nav-dropdown-button').on('click',function(e) {
-        e.stopPropagation(); //Stops default action of hiding menu items
+        e.stopPropagation(); //Stops defa
         var dropdown = $(e.target).parent().find('.top-nav-dropdown');
 
         if (dropdown.hasClass('top-nav-visible')) {

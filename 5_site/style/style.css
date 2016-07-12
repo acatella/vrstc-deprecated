@@ -9,6 +9,7 @@ TODO: There is a single email for vrstc coaches, add this to contact page
 TODO: add all visual assets
 TODO: embed fb feed and google maps (footer and contact) once working in WP
 TODO: build footer
+TODO: have header accomodate hover on desktop view
 TODO: build FAQ and Basic Info pages for:
   -Water Polo
 TODO: COPY NEEDED:
@@ -80,7 +81,7 @@ h6 {
   font-weight: bold;
 }
 body {
-  line-height: 1;
+  /*line-height: 1;*/
 }
 
 ol,
@@ -295,7 +296,8 @@ tr:nth-child(odd) {
 
 .title-container {
   width: 90%;
-  margin: 215px auto 185px;
+  margin: 0 auto;
+  padding: 215px 0 185px;
   text-align: center;
 }
 
@@ -313,7 +315,7 @@ tr:nth-child(odd) {
 .splash-img .wave-icon {
   vertical-align: top;
   display: inline-block;
-  margin: 3.5px 0 0;
+  margin: 9px 0 0;
 }
 
 .spacer {
@@ -340,6 +342,7 @@ tr:nth-child(odd) {
   width: 60%;
   height: 600px;
   float: right;
+  border-left: 2px solid #cfd6dc;
 }
 
 /* ABOUT
@@ -348,7 +351,6 @@ tr:nth-child(odd) {
 .about {
   width: 40%;
   display: inline-block;
-  border-right: 2px solid #cfd6dc;
   background: #fff;
   padding: 80px 70px;
   height: 100%;
@@ -636,10 +638,11 @@ tr:nth-child(odd) {
 }
 
 .swim-team-records,
-.swim-team-forms {
+.forms {
   border-left: 1px solid #cfd6dc;
   padding: 18px 0 18px 40px;
   width: 50%;
+  display: inline-block;
 }
 
 .st-button {
@@ -683,11 +686,13 @@ tr:nth-child(odd) {
 .times-list,
 .pricing-list {
   width: 49%;
-  float: left;
+  /*float: left;*/
+  display: inline-block;
+  vertical-align: top;
 }
 
 .times-list {
-  margin-right: 1%;
+  /*margin-right: 1%;*/
 }
 
 .times-list ul,
@@ -697,7 +702,7 @@ tr:nth-child(odd) {
 
 .lesson-sessions {
   width: 47%;
-  float: right;
+  margin-left: 53%;
 }
 
 /* SWIM LESSONS REGISTRATION
@@ -860,7 +865,7 @@ tr:nth-child(odd) {
   content: counter(customlistcounter) " ";
   font-weight: bold;
   float: left;
-  margin: 7px 33px 0 2px;
+  margin: 6px 33px 0 2px;
   position: absolute; /* to prevent list # from being affected by li padding */
   left: 8px; /* to center # in bg circle */
 }
@@ -1163,15 +1168,11 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
 -------------------------------------------------------------------------------- */
 
 
-.nav-body {
-  /*overflow-y: visible;*/
-}
 
 header {
   height: 75px;
   background: #fff;
   padding-left: 4.5%;
-
 }
 
 header .logo {
@@ -1210,6 +1211,8 @@ header .logo img {
   position: absolute;
   top: 75px;
   left: -9999px;
+  z-index: 10000;
+  background: #fff;
 }
 
 .top-nav-item {
@@ -1285,7 +1288,11 @@ header .logo img {
   padding-bottom: 30px;
   text-align: right;
   border-left: 1px solid #cfd6dc;
-  z-index: 1;
+  border-top: 1px solid #cfd6dc;
+  border-bottom: 1px solid #cfd6dc;
+  border-radius: 5px 0 0 5px;
+  height: 100vh;
+  z-index: 100000;
   -moz-transition: all 0.2s linear 0s;
   -webkit-transition: all 0.2s linear 0s;
   -ms-transition: all 0.2s linear 0s;

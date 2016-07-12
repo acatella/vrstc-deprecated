@@ -44,6 +44,8 @@
 
   .calendar-plugin {
     width: 100%;
+    float: none;
+    border: none;
   }
 
   .spacer {
@@ -70,6 +72,11 @@
 }
 
 @media (max-width: 600px) {
+
+  .splash-img {
+    height: 100%;
+  }
+
   .calendar-container {
     position: relative;
     width: 100%;
@@ -134,6 +141,7 @@
   .practice-schedule {
     width: 100%;
     padding-right: 0;
+    float: none;
   }
 
   .facebook-embed {
@@ -143,8 +151,14 @@
   }
 
   .swim-team-records,
-  .swim-team-forms   {
+  .forms   {
     padding-left: 20px;
+    width: 100%;
+    border: none;
+  }
+
+  .swim-team-records {
+    margin-bottom: 30px;
   }
 
 }
