@@ -9,9 +9,11 @@ TODO: There is a single email for vrstc coaches, add this to contact page
 TODO: add all visual assets
 TODO: embed fb feed and google maps (footer and contact) once working in WP
 TODO: build footer
-TODO: have header accomodate hover on desktop view
+TODO: build club events page
+TODO: have header accomodate hover on desktop view (ask will's opinion?)
+TODO: put javascript (header and club rules logic) in external script, link to all pages
 TODO: build FAQ and Basic Info pages for:
-  -Water Polo
+  -Water Polo (if asked for)
 TODO: COPY NEEDED:
   -Water Polo Page
   -Club History
@@ -190,6 +192,10 @@ a:hover {
   background-position: 0 0;
 }
 
+.pool-splash {
+  background: url('../../4_assets/visual/vrstc-background-pool.jpg');
+}
+
 .hero-text {
   font-weight: normal;
   font-size: 15px;
@@ -215,7 +221,6 @@ a:hover {
 
 
 .sub-page-splash {
-  background: #5381ac; /* placeholder until we add images */
   height: 315px;
   padding-top: 137.5px;
   text-align: center;
@@ -317,12 +322,14 @@ tr:nth-child(odd) {
   margin: 0 30px;
   text-transform: uppercase;
   display: inline-block;
+  color: rgba(255,255,255,.9);
 }
 
 .splash-img .wave-icon {
   vertical-align: top;
   display: inline-block;
   margin: 9px 0 0;
+  opacity: .9;
 }
 
 .spacer {
@@ -394,6 +401,7 @@ tr:nth-child(odd) {
 .pc-button-container {
   display: inline-block;
   float: right;
+  padding-top: 8px;
 }
 
 
@@ -403,8 +411,18 @@ tr:nth-child(odd) {
   font-style: italic;
   text-align: right;
   line-height: 15px;
-  padding-top: 8px;
+  vertical-align: top;
+  margin-right: 16px;
   color: #fff;
+  display: inline-block;
+}
+
+.pc-button {
+  height: 30px;
+  width: 30px;
+  background: url('../../4_assets/visual/right-chevron-circle.png');
+  background-size: 100% 100%;
+  display: inline-block;
 }
 
 .ch-content {
@@ -1212,6 +1230,9 @@ header .logo img {
   height: 75px;
   padding: 30px 23px 0;
   position: relative;
+  transition: background .3s;
+  -moz-transition: background .3s;
+  -webkit-transition: background .3s;
 }
 
 .top-nav-dropdown {
@@ -1353,4 +1374,19 @@ header .logo img {
 .mobile-nav-item a:hover {
   background: #eff2f7;
   text-decoration: none;
+}
+
+/* CLUB EVENTS PAGE
+-------------------------------------------------------------------------------- */
+
+.event-section {
+  padding: 120px 0;
+}
+
+.event-section:nth-child(odd) {
+  background: #e5e8ed;
+}
+
+.event-section h3 {
+  margin: 30px 0 15px;
 }

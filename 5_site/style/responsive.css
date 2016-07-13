@@ -117,6 +117,7 @@
 
   .pc-button-title {
     text-align: left;
+    margin-right: 0;
   }
 }
 
@@ -360,5 +361,15 @@
 
   .mobile-nav-button {
     display: inline-block;
+  }
+}
+
+/* CLUB EVENTS
+-------------------------------------------------------------------------------- */
+
+@media (max-width: 420px) {
+  .event-sub-nav .sub-nav-item {
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
