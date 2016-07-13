@@ -99,7 +99,7 @@
     padding-right: 5%;
     width: 100%;
     border-right: none;
-    border-bottom: 2px solid #cfd6dc;
+    /*border-bottom: 2px solid #cfd6dc;*/
   }
 
   .quick-links {

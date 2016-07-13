@@ -196,6 +196,14 @@ a:hover {
   background: url('../../4_assets/visual/vrstc-background-pool.jpg');
 }
 
+.tennis-splash {
+  background: url('../../4_assets/visual/vrstc-background-pool.jpg');
+}
+
+.generic-splash {
+  background: url("../../4_assets/visual/vrstc-background.jpg");
+}
+
 .hero-text {
   font-weight: normal;
   font-size: 15px;
@@ -1251,6 +1259,9 @@ header .logo img {
   display: block;
   width: 190px;
   padding: 15px 0 15px 25px;
+  -moz-transition: background .3s;
+  -webkit-transition: background .3s;
+  transition: background .3s;
 }
 
 .top-nav-section:hover .top-nav-dropdown {
@@ -1310,15 +1321,12 @@ header .logo img {
   top:0;
   right: 0;
   background: #fff;
-  width: 75%;
+  width: 60%;
   padding-right: 10%;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: right;
   border-left: 1px solid #cfd6dc;
-  border-top: 1px solid #cfd6dc;
-  border-bottom: 1px solid #cfd6dc;
-  border-radius: 5px 0 0 5px;
   height: 100vh;
   z-index: 100000;
   -moz-transition: all 0.2s linear 0s;
@@ -1348,7 +1356,7 @@ header .logo img {
 }
 
 .mobile-nav-dropdown {
-  width: 50%;
+  width: 70%;
   display: none;
 
 }
