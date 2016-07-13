@@ -1390,3 +1390,93 @@ header .logo img {
 .event-section h3 {
   margin: 30px 0 15px;
 }
+
+/* FOOTER
+-------------------------------------------------------------------------------- */
+
+section.main-footer {
+  background: #2b4b6f;
+}
+
+section.sub-footer {
+  background: #1e3c60;
+}
+
+.main-footer h4 {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.main-footer {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.main-footer .left-col {
+  margin-right: 5%;
+}
+
+.main-footer .hero-text {
+  color: #acb6c0;
+}
+
+.footer-logo {
+  height: 55px;
+  margin-bottom: 45px;
+}
+
+.gmaps-embed-fpo {
+  display: inline-block;
+  height: 145px;
+  width: 145px;
+  background: #e9e5db;
+  border-radius: 3px;
+}
+
+.phone-number {
+  margin: 2px 0 15px;
+}
+
+.main-footer .footer-contact,
+.main-footer .footer-hours {
+  line-height: 25px;
+}
+
+.footer-contact {
+  min-width: 225px;
+}
+
+.sub-footer {
+  padding: 20px 0;
+}
+
+.sub-footer-tagline {
+  width: 60%;
+  border-right: 1px solid #7d8998;
+  color: #7d8998;
+  text-align: right;
+  padding-right: 5%;
+  display: inline-block;
+}
+
+.sub-footer-fb-cta {
+  width: 39%;
+  display: inline-block;
+  padding-left: 5%;
+}
+
+.sub-footer-fb-cta .hero-text {
+  display: inline-block;
+  color: rgba(255,255,255,.8);
+}
+
+.fb-link {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  opacity: .8;
+  vertical-align: top;
+  margin-left: 15px;
+}
