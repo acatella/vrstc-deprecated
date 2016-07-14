@@ -3,14 +3,9 @@
 
 /* KEY
 
-TODO: add contact info for coaches on team pages
-TODO: There is a single email for vrstc coaches, add this to contact page
 TODO: add all visual assets
 TODO: embed fb feed and google maps (footer and contact) once working in WP
-TODO: build footer
-TODO: build club events page
-TODO: have header accomodate hover on desktop view (ask will's opinion?)
-TODO: put javascript (header and club rules logic) in external script, link to all pages
+TODO: build page to hold pool cues
 TODO: build FAQ and Basic Info pages for:
   -Water Polo (if asked for)
 TODO: COPY/info NEEDED:
@@ -442,10 +437,35 @@ tr:nth-child(odd) {
   display: inline-block;
 }
 
-.ch-content {
-  height: 300px;
+.ch-post {
+  vertical-align: top;
+  display: inline-block;
+  width: 30%;
+  margin-right: 4.5%;
+  background: #fff;
+  padding: 32px;
 }
 
+.ch-post:last-child {
+  margin: 0;
+}
+
+.ch-date {
+  color: #5e8cbd;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+.clock-icon {
+  background-image: url('../../4_assets/visual/clock-icon.png');
+  background-size: 100%;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 4px;
+  margin-right: 10px;
+  display: inline-block;
+}
 /* CLUB ACTIVITIES
 --------------------------- */
 
