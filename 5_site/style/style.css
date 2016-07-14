@@ -51,7 +51,7 @@ light gray bg: #fbfbfb
   font-family: 'Edmondsans';
   font-style: normal;
   font-weight: bold;
-  src:url('../../6_fonts/edmondsans-bold.otf') format('opentype');
+  src:url('https://github.com/acatella/vrstc/blob/gh-pages/6_fonts/Edmondsans-Bold.otf') format('opentype');
 }
 
 /* RESET
