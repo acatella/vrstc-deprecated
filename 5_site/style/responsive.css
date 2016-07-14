@@ -371,7 +371,7 @@
   }
 
   .mobile-nav-button {
-    display: inline-block;
+    display: block;
   }
 }
 
@@ -415,3 +415,11 @@
     margin-top: 22px;
   }
 }
+
+/* FOOTER
+-------------------------------------------------------------------------------- */
+
+@media (max-width: 680px) {
+  .waitlist-button {
+    width: 50%;
+  }

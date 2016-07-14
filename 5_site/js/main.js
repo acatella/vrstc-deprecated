@@ -7,7 +7,7 @@ $(document).ready(function() {
 
   // Top Nav Click Events for Mobile and Desktop
   $('.top-nav-dropdown-button').on('click',function(e) {
-    e.stopPropagation(); //Stops defa
+    e.stopPropagation(); //Stops default closing of menu
     var dropdown = $(e.target).parent().find('.top-nav-dropdown');
 
     if (dropdown.hasClass('top-nav-visible')) {
