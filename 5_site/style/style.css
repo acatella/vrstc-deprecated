@@ -3,7 +3,7 @@
 
 /* KEY
 
-TODO: embed fb feed and google maps (footer and contact) once working in WP
+TODO: build top of calendar page
 TODO: build page to hold pool cues
 TODO: build FAQ and Basic Info pages for:
   -Water Polo (if asked for)
@@ -1591,7 +1591,7 @@ section.sub-footer {
 
 .footer-map iframe {
   height: 100%;
-  width: 100%;
+  width: 100;
   border-radius: 3px;
 }
 
