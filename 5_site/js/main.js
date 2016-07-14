@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  // Hides menu items when document is clicked
+  // Hides menu dropdown when document is clicked outside of open dropdown
   $(document).on('click',function(e) {
     $('.top-nav-dropdown').removeClass('top-nav-visible');
   })
@@ -44,7 +44,7 @@ $(document).ready(function() {
     $('.mobile-nav-section').removeClass('mobile-nav-visible');
   });
 
-  //hides all list items after the 5th one
+  //function that hides all list items after the 5th one
   function hideItems() {
     $('.ol-item:nth-child(n+6)').addClass('hidden');
   }

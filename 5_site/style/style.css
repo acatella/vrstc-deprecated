@@ -218,6 +218,9 @@ a:hover {
   color: #5d8bbc;
   font-size: 12px;
   width: 265px;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .button:hover {
@@ -1487,4 +1490,13 @@ section.sub-footer {
   opacity: .8;
   vertical-align: top;
   margin-left: 15px;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.fb-link:hover {
+  height: 35px;
+  width: 35px;
+  margin-left: 10px;  
 }
