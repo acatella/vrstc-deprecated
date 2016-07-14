@@ -3,7 +3,6 @@
 
 /* KEY
 
-TODO: build page to hold pool cues
 TODO: build FAQ and Basic Info pages for:
   -Water Polo (if asked for)
 TODO: COPY/info/assets NEEDED:
@@ -45,14 +44,14 @@ light gray bg: #fbfbfb
   font-family: 'Edmondsans';
   font-style: normal;
   font-weight: normal;
-  src:url('../../6_fonts/edmondsans_personal_license/Edmondsans-Regular.otf') format('opentype');
+  src:url('https://github.com/acatella/vrstc/tree/master/6_fonts/Edmondsans_Personal_License') format('opentype');
 }
 
 @font-face {
   font-family: 'Edmondsans';
   font-style: normal;
   font-weight: bold;
-  src:url('../../6_fonts/edmondsans_personal_license/Edmondsans-Bold.otf') format('opentype');
+  src:url('https://github.com/acatella/vrstc/tree/master/6_fonts/Edmondsans_Personal_License') format('opentype');
 }
 
 /* RESET
