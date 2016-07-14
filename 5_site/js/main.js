@@ -3,20 +3,27 @@ $(document).ready(function() {
   // Hides menu dropdown when document is clicked outside of open dropdown
   $(document).on('click',function(e) {
     $('.top-nav-dropdown').removeClass('top-nav-visible');
-  })
+    $('.top-nav-section').removeClass('rotate-caret');
+  });
 
   // Top Nav Click Events for Mobile and Desktop
   $('.top-nav-dropdown-button').on('click',function(e) {
     e.stopPropagation(); //Stops default closing of menu
+
+    var topNavSection = $(e.target).parent();
+
     var dropdown = $(e.target).parent().find('.top-nav-dropdown');
 
     if (dropdown.hasClass('top-nav-visible')) {
       dropdown.removeClass('top-nav-visible')
+      topNavSection.removeClass('rotate-caret');
     }
 
     else {
       $('.top-nav-dropdown').removeClass('top-nav-visible');
       dropdown.addClass('top-nav-visible');
+      $('.top-nav-section').removeClass('rotate-caret');
+      topNavSection.addClass('rotate-caret');
     }
 
   });

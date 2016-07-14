@@ -3,7 +3,6 @@
 
 /* KEY
 
-TODO: add all visual assets
 TODO: embed fb feed and google maps (footer and contact) once working in WP
 TODO: build page to hold pool cues
 TODO: build FAQ and Basic Info pages for:
@@ -1311,7 +1310,7 @@ header .logo img {
   transform-origin: 87% 39px;
 }
 
-.top-nav-section:hover .top-nav-dropdown-button:before {
+.rotate-caret .top-nav-dropdown-button:before {
   -webkit-transform: rotate(180deg);
  -moz-transform: rotate(180deg);
  -ms-transform: rotate(180deg);
