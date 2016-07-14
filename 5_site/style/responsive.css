@@ -340,9 +340,16 @@
     width: 100%;
   }
 
+  .contact-main {
+    padding-bottom: 60px;
+  }
   .mail-links {
     padding: 60px 0;
     border: none;
+  }
+
+  .contact-map iframe {
+    height: 350px;
   }
 }
 

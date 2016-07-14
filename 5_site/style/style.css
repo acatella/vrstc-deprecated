@@ -1245,6 +1245,14 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
   margin-bottom: 10px;
 }
 
+.contact-map iframe{
+  height: 600px;
+}
+
+.contact-map {
+  padding-bottom: 120px;
+}
+
 /* HEADER AND TOP NAV
 -------------------------------------------------------------------------------- */
 
@@ -1526,14 +1534,6 @@ section.sub-footer {
   margin-bottom: 45px;
 }
 
-.gmaps-embed-fpo {
-  display: inline-block;
-  height: 145px;
-  width: 145px;
-  background: #e9e5db;
-  border-radius: 3px;
-}
-
 .phone-number {
   margin: 2px 0 15px;
 }
@@ -1587,6 +1587,19 @@ section.sub-footer {
   height: 35px;
   width: 35px;
   margin-left: 10px;
+}
+
+.footer-map iframe {
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+}
+
+
+.footer-map {
+  display: inline-block;
+  height: 145px;
+  width: 145px;
 }
 
 /* FACEBOOK
