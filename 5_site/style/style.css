@@ -3,7 +3,6 @@
 
 /* KEY
 
-TODO: link quick link buttons on homepage (better done in wordpress)
 TODO: add contact info for coaches on team pages
 TODO: There is a single email for vrstc coaches, add this to contact page
 TODO: add all visual assets
@@ -14,10 +13,11 @@ TODO: have header accomodate hover on desktop view (ask will's opinion?)
 TODO: put javascript (header and club rules logic) in external script, link to all pages
 TODO: build FAQ and Basic Info pages for:
   -Water Polo (if asked for)
-TODO: COPY NEEDED:
+TODO: COPY/info NEEDED:
   -Water Polo Page
   -Club History
   -Staff Page
+  -Coach email addresses
 
 text:
 dark blue heading: #34567a
@@ -265,6 +265,12 @@ a:hover {
   width: 90%;
   max-width: 1110px;
   margin: 0 auto;
+}
+
+.email {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 12px;
 }
 
 /* TABLE STYLE
