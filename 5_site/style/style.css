@@ -1047,6 +1047,10 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
 /* WATER POLO PAGE
 -------------------------------------------------------------------------------- */
 
+.polo-splash {
+  background-image: url('../../4_assets/visual/vrstc-background-waterpolo.jpg');
+}
+
 .polo-links {
   margin-top: 60px;
 }
@@ -1125,6 +1129,22 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
 .member-about .view-all{
   position: relative;
 }
+
+.waitlist-button {
+  margin: 25px auto;
+  padding: 25px 0;
+  width: 500px;
+  background: #e5e8ed;
+  color: #34567a;
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Edmondsans', sans-serif;
+  font-size: 12px;
+}
+
 
 /* MEMBERSHIP PAGE
 -------------------------------------------------------------------------------- */
