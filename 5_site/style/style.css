@@ -44,14 +44,14 @@ light gray bg: #fbfbfb
   font-family: 'Edmondsans';
   font-style: normal;
   font-weight: normal;
-  src:url('https://github.com/acatella/vrstc/blob/gh-pages/6_fonts/Edmondsans_Personal_License/Edmondsans-Regular.otf') format('opentype');
+  src:url('../../6_fonts/edmondsans_personal_license/edmondsans-regular.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Edmondsans';
   font-style: normal;
   font-weight: bold;
-  src:url('https://github.com/acatella/vrstc/tree/gh-pages/6_fonts/Edmondsans_Personal_License') format('opentype');
+  src:url('../../6_fonts/edmondsans_personal_license/edmondsans-bold.otf') format('opentype');
 }
 
 /* RESET
