@@ -430,3 +430,18 @@
   .waitlist-button {
     width: 50%;
   }
+
+
+/* MEMBERSHIP
+-------------------------------------------------------------------------------- */
+
+@media (max-width: 780px)   {
+  .back-button,
+  .back-button-text {
+    left: 0;
+  }
+
+  .back-button {
+    margin-right: 10px;
+  }
+}
