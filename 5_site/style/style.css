@@ -1394,7 +1394,7 @@ header .logo img {
   padding: 120px 0;
 }
 
-.event-section:nth-child(odd) {
+.event-section:nth-child(even) {
   background: #e5e8ed;
 }
 
@@ -1498,5 +1498,5 @@ section.sub-footer {
 .fb-link:hover {
   height: 35px;
   width: 35px;
-  margin-left: 10px;  
+  margin-left: 10px;
 }
