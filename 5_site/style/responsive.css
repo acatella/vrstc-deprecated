@@ -110,7 +110,6 @@
     padding-right: 5%;
     width: 100%;
     border-right: none;
-    /*border-bottom: 2px solid #cfd6dc;*/
   }
 
   .quick-links {
@@ -124,6 +123,7 @@
   .pc-button-container {
     float: none;
     display: block;
+    margin-bottom: 30px;
   }
 
   .pc-button-title {

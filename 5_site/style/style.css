@@ -216,7 +216,7 @@ a:hover {
   border-radius: 30px;
   border: 1px solid #5d8bbc;
   color: #5d8bbc;
-  font-size: 12px;
+  font-size: 16px;
   width: 265px;
   -moz-transition: all .3s;
   -webkit-transition: all .3s;
@@ -1192,6 +1192,11 @@ ol.order-list .hidden { /* hides all but set number of rules per section */
 .adult-clinics,
 .cardio-tennis {
   padding: 120px 0;
+}
+
+.adult-clinics .email {
+  font-size: 15px;
+  margin-right: 3px;
 }
 
 .adult-tennis-time-price {
